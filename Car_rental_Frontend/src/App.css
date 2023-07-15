@@ -1,0 +1,181 @@
+
+.App {
+
+  text-align: center;
+
+}
+
+.App-logo {
+
+  height: 40vmin;
+
+  pointer-events: none;
+
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .App-logo {
+
+    animation: App-logo-spin infinite 20s linear;
+
+  }
+
+}
+
+
+
+
+.App-header {
+
+  background-color: #282c34;
+
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: calc(10px + 2vmin);
+
+  color: white;
+
+}
+
+
+
+
+.App-link {
+
+  color: #61dafb;
+
+}
+
+
+
+
+@keyframes App-logo-spin {
+
+  from {
+
+    transform: rotate(0deg);
+
+  }
+
+  to {
+
+    transform: rotate(360deg);
+
+  }
+
+}
+
+.App {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+background-color :#76b8e1;
+}
+
+.form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.register--login{
+
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/3a7c2e171848465.6475ccf578a41.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  height: 100vh;
+
+}
+.add--cars{
+
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/4fa8be116913295.606bf7eaac768.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  height: 100vh;
+
+}
+.cars--card{
+
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/96c847122506451.60db3deb56066.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  height: auto;
+
+}
+.cart--page{
+
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/cc21d4164422131.63f663881656d.jpeg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  height: 100vh;
+
+}
+.booking--report{
+
+  display: flex;
+
+  flex-direction: column;
+
+  text-align: center;
+
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/4b82d074662573.5c366170c373a.png");
+
+  background-size: cover;
+
+  background-position: center;
+
+  height: 100vh;
+
+ 
+
+}
